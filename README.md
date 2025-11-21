@@ -10,10 +10,15 @@ Place themn in a directory called `dataset`
 
 
 # Baselines
-1. **Random Prediction**: 0.4994 Accuracy, 0.4996 AUC
-2. **Popularity Baseline**: 0.8749 Accuracy, 0.9454 AUC
+1. **Random Prediction**: 0.4994 Accuracy
+2. **Popularity Baseline**: 0.7660 Accuracy - with negative ratio 2:1
 
 # Methods
 1. **Matrix Factorization**: 
     - Training: 0.8775 Accuracy, 0.9526 AUC
     - Test: 0.8767 Accuracy, 0.9516 AUC
+
+1. **Feature Engineering**:
+With negative ratio 2:1:
+    - Training: 0.8459 Accuracy
+    - Test: 0.8470 Accuracy 
